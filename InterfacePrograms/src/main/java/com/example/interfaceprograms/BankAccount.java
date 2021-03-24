@@ -1,6 +1,6 @@
 package com.example.interfaceprograms;
 
-public class BankAccount {
+public class BankAccount implements Measurable {
 
 
     private double balance;
@@ -13,7 +13,7 @@ public class BankAccount {
         accountNumber = LastAssignedNumber;
     }
 
-    public double getBalance() {
+    public double getMeasure() {
         return balance;
     }
 }
